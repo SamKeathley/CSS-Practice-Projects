@@ -4,7 +4,7 @@
   margin-left: 2rem;
 }
 
-// SEARCH -----------------------------------------------
+// ------------ SEARCH -----------------------------------------------
 .search {
   flex: 0 0 40%;
   display: flex;
@@ -59,7 +59,7 @@
   }
 }
 
-// USER NAVIGATION -----------------------------------------------
+// ------------ USER NAVIGATION -----------------------------------------------
 .user-nav {
   align-self: stretch;
   display: flex;
@@ -109,7 +109,7 @@
   }
 }
 
-// SIDE NAVIGATION -----------------------------------------------
+// ------------ SIDE NAVIGATION -----------------------------------------------
 .side-nav {
   font-size: 1.4rem;
   list-style: none;
@@ -167,10 +167,51 @@
   }
 }
 
-// LEGAL -----------------------------------------------
+// ------------ LEGAL -----------------------------------------------
 .legal {
   font-size: 1.2rem;
   color: var(--color-light-grey-4);
   text-align: center;
   padding: 2.5rem;
+}
+
+// ------------ GALLERY -----------------------------------------------
+.gallery {
+  display: flex;
+
+  &__photo {
+    width: 100%;
+    display: block;
+  }
+}
+
+// ------------ OVERVIEW -----------------------------------------------
+.overview {
+  display: flex;
+
+  &__heading {
+  }
+
+  &__stars {
+    margin-right: auto;
+  }
+
+  &__icon-star,
+  &__icon-location {
+    width: 1.75rem;
+    height: 1.75rem;
+    fill: var(--color-primary);
+  }
+
+  &__location {
+  }
+
+  &__rating {
+  }
+
+  &__rating-count {
+  }
+
+  &__rating-average {
+  }
 }
